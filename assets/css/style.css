@@ -529,20 +529,14 @@ header{
 .social-icons a:hover {
     background-position: 0px -50px;
 }
-.facebook{
-	background-image: url(../images/facebook.png);
+.github {
+	background-image: url(../images/github.png);
 }
 .twitter{
 	background-image: url(../images/twitter.png);
 }
-.google-plus{
-	background-image: url(../images/google-plus.png);
-}
 .linkedin{
 	background-image: url(../images/linkedin.png);
-}
-.wordpress{
-	background-image: url(../images/wordpress.png);
 }
 
 
