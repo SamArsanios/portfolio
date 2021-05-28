@@ -521,7 +521,7 @@ header{
 }
 .social-icons a {
     display: block;
-    /* width: 50px; */
+    width: 50px;
 	font-size: 35px;
     height: 50px;
     background-size: 100% 200%;
