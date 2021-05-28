@@ -325,7 +325,7 @@ header{
 .cs-style-3 figcaption {
 	/* height: 100px; */
 	width: 100%;
-	top: 50%;
+	top: 40%;
 	bottom: 0;
 	opacity: 0;
 	-webkit-transform: translateY(100%);
@@ -348,6 +348,14 @@ header{
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
+
+/* .stack-container {
+	display: flex;
+}
+
+.stack {
+	padding: 7px 0 0 50px;
+} */
 
 .cs-style-3 figcaption a {
 	/* position: absolute; */
