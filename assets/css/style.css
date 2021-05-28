@@ -529,7 +529,7 @@ header{
 .social-icons a:hover {
     background-position: 0px -50px;
 }
-.github {
+.github-social {
 	background-image: url(../images/github.png);
 }
 .twitter{
