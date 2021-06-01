@@ -56,7 +56,7 @@ a:hover,a:active,a:focus{
     font-weight: 300;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .block_title:before,.block_title:after {
     content: "";
@@ -195,6 +195,12 @@ header{
 /* ///////////////////////////////////////////////////////////////////// 
 //  04 - Services
 /////////////////////////////////////////////////////////////////////*/
+.stack-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
 
 .lang-icon {
     width: 50px;
