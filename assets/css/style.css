@@ -586,11 +586,35 @@ footer {
 	.centered p {
 		font-size: 3em;
 	}
-	.bigheadline {
+	/* .bigheadline {
 		font-size:15em;
 	}
 	.subheadline {
 		font-size: 5em;
+	}
+	.bigheadline {
+		font-size: 4em;
+	}
+	.subheadline {
+		font-size: 2em;
+	} */
+	.normal-txt{
+		/* font-size: 2em; */
+		/* display: none; */
+	}
+	.scoialinks {
+		font-size: 1em;
+	}
+}
+@media all and (max-width: 1400px) and (min-width: 1200px) {
+  .normal-txt{
+		font-size: 2em;
+    font-size: 1.8em;
+    padding-bottom: 0;
+		margin-top: 50px;
+    margin-bottom: 0;
+		font-weight: 500;
+		/* display: none; */
 	}
 }
 
@@ -611,6 +635,24 @@ footer {
 	    font-size: 11px;
 	    padding: 0px 35px;
 	}
+	.bigheadline {
+		font-size: 4em;
+	}
+	.subheadline {
+		font-size: 2em;
+	}
+	.normal-txt{
+		font-size: 2em;
+    font-size: 1.8em;
+    padding-bottom: 0;
+		margin-top: 50px;
+    margin-bottom: 0;
+		font-weight: 500;
+		/* display: none; */
+	}
+	.scoialinks {
+		font-size: 1em;
+	}
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -628,6 +670,19 @@ footer {
 	.pe-dj {
 		font-size: 6em;
 	}
+	/* .bigheadline {
+		font-size: 3em;
+	}
+	.subheadline {
+		font-size: 1.5em;
+	}
+	.normal-txt{
+		/* font-size: 0.5em; */
+		/* display: none;
+	} */
+	.scoialinks {
+		font-size: 1em;
+	} */
 
 }
 
@@ -638,6 +693,24 @@ footer {
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: 50% -50px;
+	}
+	.bigheadline {
+		font-size: 4em;
+	}
+	.subheadline {
+		font-size: 2em;
+	} 
+	.normal-txt{ 
+		font-size: 2em;
+    font-size: 1.8em;
+    padding-bottom: 0;
+		margin-top: 50px;
+    margin-bottom: 0;
+		font-weight: 500;
+		/* display: none; */
+	 } 
+	.scoialinks { 
+		font-size: 1em;
 	}
 }
 
@@ -664,12 +737,14 @@ footer {
 		font-size: 1.5em;
 	}
 	.normal-txt{
-		/* font-size: 0.5em; */
-		display: none;
+		font-size: 1.8em;
+		margin-top: 50px;
+		font-weight: 500;
+		/* display: none; */
 	}
-	.scoialinks {
+	.scoial-icons a {
 		font-size: 1em;
-	}
+	} 
 	.item-space figure {
 	    max-width: 360px;
 	    margin: 0 auto;
@@ -686,8 +761,6 @@ footer {
 	}
 }
 @media all and (max-width: 380px) {
-
-
 	.logo-text {
 	    font-size: 2em;
 	}
@@ -718,5 +791,16 @@ footer {
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.normal-txt{
+		font-size: 1.8em;
+    padding-bottom: 0;
+		margin-top: 50px;
+    margin-bottom: 0;
+		font-weight: 500;
+		/* display: none; */
 	}
 }
