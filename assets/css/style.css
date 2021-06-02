@@ -28,8 +28,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
+.menu-opts{
+  color: #000;
+}
 a {
-	color: #e66f69;
+	/* color: #e66f69; */
+  color: #ffffff;
 	transition: 0.4s ease all;
 	outline: none;
 }
@@ -40,9 +44,9 @@ a:hover,a:active,a:focus{
 	outline: none;
 }
 .btn {
-    color: #fff;
+    color: #000;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #8E8E8E;
     border-radius: 0px;
     font-size: 1.2em;
     transition: 0.4s ease all;
@@ -93,7 +97,7 @@ header{
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
-  color: rgb(60, 255, 0);
+  color: rgb(255, 255, 255);
 	font-weight: 100;
 	font-size: 7em;
 	margin: 0;
@@ -444,7 +448,7 @@ header{
 
 
 #contact {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .mapWrap {
@@ -458,14 +462,14 @@ header{
     height: 100%;
 }
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.7); */
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
 }
 
 .moreDetails {
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .con-title {
     font-weight: 300;
