@@ -55,7 +55,7 @@ a:hover,a:active,a:focus{
     font-size: 4em;
     font-weight: 300;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-bottom: 40px;
 }
 .block_title:before,.block_title:after {
@@ -220,7 +220,7 @@ header{
 	padding-top: 76px;
 }
 .service-area {
-    margin: 80px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 .service-wrap {
@@ -262,7 +262,7 @@ header{
 .port {
 	list-style: none;
 	text-align: left;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
 }
 
 .port .item {
