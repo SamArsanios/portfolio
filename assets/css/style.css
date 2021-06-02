@@ -363,11 +363,11 @@ header{
 	padding: 7px 0 0 50px;
 } */
 
-.cs-style-3 figcaption a {
-	/* position: absolute; */
-	/* bottom: 31px;
-	right: 20px; */
-}
+/* .cs-style-3 figcaption a {
+	position: absolute; 
+	bottom: 31px;
+	right: 20px;
+} */
 .button{
 	background: transparent;
 	border: 1px solid #fff;
@@ -400,9 +400,9 @@ header{
 	line-height: 13px;
 }
 
-.github {
-	/* float: left; */
-}
+/* .github {
+	float: left;
+} */
 /* ///////////////////////////////////////////////////////////////////// 
 //  06 - Testimonial 
 /////////////////////////////////////////////////////////////////////*/
@@ -604,10 +604,10 @@ footer {
 	.subheadline {
 		font-size: 2em;
 	} */
-	.normal-txt{
-		/* font-size: 2em; */
-		/* display: none; */
-	}
+	/* .normal-txt{
+		font-size: 2em;
+		display: none;
+	} */
 	.scoialinks {
 		font-size: 1em;
 	}
@@ -688,8 +688,7 @@ footer {
 	} */
 	.scoialinks {
 		font-size: 1em;
-	} */
-
+	} 
 }
 
 @media all and (max-width: 991px) {
