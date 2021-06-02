@@ -93,7 +93,7 @@ header{
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
-  color: #fff;
+  color: rgb(60, 255, 0);
 	font-weight: 100;
 	font-size: 7em;
 	margin: 0;
@@ -199,7 +199,7 @@ header{
 .stack-icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 50px;
 }
 
