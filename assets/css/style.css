@@ -664,6 +664,9 @@ footer {
 	.scoialinks {
 		font-size: 1em;
 	}
+  .cs-style-3 figcaption {
+    top:15%;
+  }
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -681,6 +684,9 @@ footer {
 	.pe-dj {
 		font-size: 6em;
 	}
+  .cs-style-3 figcaption {
+    top:25%;
+  }
 	/* .bigheadline {
 		font-size: 3em;
 	}
