@@ -96,8 +96,9 @@ header{
     color: #fff;
 }
 .top-headers{
-  background-color: transparent;
-  opacity: 0.8;
+  background-color: #3b2c3f;
+  /* opacity: 0.8; */
+  padding: 10px;
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
