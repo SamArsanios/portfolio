@@ -639,7 +639,6 @@ footer {
 }
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
-
 	.services {
 		max-width: 293px;
 		height: 213px;
@@ -676,6 +675,17 @@ footer {
   .cs-style-3 figcaption {
     top:15%;
   }
+  /* .block_title:before {
+    right: 0.5em;
+    margin-left: -22%;
+    width: 20%;
+} */
+.block_title:after {
+  left: 0.5em;
+  margin-right: -52%;
+  width: 20%;
+}
+  
 }
 
 @media all and (max-width: 991px) and (min-width: 768px) {
@@ -737,6 +747,22 @@ footer {
 	.scoialinks { 
 		font-size: 1em;
 	}
+  .block_title{
+    font-size: 40px;
+  }
+  .con-title{
+    font-size: 35px;
+  }
+  .block_title:before {
+    right: 0.5em;
+    margin-left: -22%;
+    width: 20%;
+}
+.block_title:after {
+  left: 0.5em;
+  margin-right: -22%;
+  width: 20%;
+}
 }
 
 @media all and (max-width: 768px) {
@@ -784,6 +810,9 @@ footer {
 	    top: 70%;
 	    left: 46%;
 	}
+  /* body{
+    font-size: 10px;
+  } */
 }
 @media all and (max-width: 380px) {
 	.logo-text {
@@ -828,4 +857,30 @@ footer {
 		font-weight: 500;
 		/* display: none; */
 	}
+  body{
+    font-size: 10px;
+  }
+  .stack-icons img{
+    width: 25px;
+    height: 25px;
+  }
+  .block_title{
+    font-size: 20px;
+  }
+  .con-title{
+    font-size: 20px;
+  }
+  .block_title:before {
+    right: 0.5em;
+    margin-left: -22%;
+    width: 20%;
+}
+.block_title:after {
+  left: 0.5em;
+  margin-right: -22%;
+  width: 20%;
+}
+.social-icons a{
+  font-size: 15px;
+}
 }
