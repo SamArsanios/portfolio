@@ -97,17 +97,14 @@ header{
 }
 .top-headers{
   background-color: #3b2c3f;
-  /* opacity: 0.8; */
   padding: 10px;
 }
 .bigheadline {
 	font-family: 'Raleway', sans-serif;
   color: rgb(255, 255, 255);
-  /* background-color:#000; */
 	font-weight: 100;
 	font-size: 7em;
 	margin: 0;
-  /* opacity: 0.8; */
 }
 .subheadline {
 	font-family: 'Titillium Web', sans-serif;
